@@ -9,8 +9,12 @@ let[counter,setcounter]=useState(15)
 
 const addValue = () =>{
   if(counter<20){
- counter=counter+1
- setcounter(counter)
+ //counter=counter+1
+ //setcounter(counter)
+ setcounter(prevcounter=>prevcounter+1)
+ setcounter(prevcounter=>prevcounter+1)
+ setcounter(prevcounter=>prevcounter+1)
+ setcounter(prevcounter=>prevcounter+1)
   }
 }
 const removevalue=()=>{
